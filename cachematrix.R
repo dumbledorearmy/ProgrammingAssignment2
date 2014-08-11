@@ -1,4 +1,5 @@
 ## Memory management in R - Matrix Inversion and cache management
+## This function creates a special "matrix" object that can cache its inverse
 ## Initializes the matrix and functions get, set, getinverse and setinverse
 ## which are then used later in the function cacheSolve
 makeCacheMatrix <- function(x = matrix()) {
